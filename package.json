@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-vitest-76-reproduction",
+  "version": "1.0.0",
+  "description": "Minimal reproduction for https://github.com/danielroe/nuxt-vitest/issues/76",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "test": "vitest",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.5.3",
+    "nuxt-vitest": "^0.8.5",
+    "vitest": "^0.30.0"
+  }
+}
